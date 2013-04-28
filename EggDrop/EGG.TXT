@@ -1,0 +1,47 @@
+Egg Drop v1.0
+(C)opyright 2013, Chris Tusa / LeafScale, Inc.
+Released under the Creative Commons License
+Attribution Non Commercial Share Alike 3.0
+=================================================
+
+------------
+Game Story
+------------
+Why did the chicken climb the ladder? To lay some
+eggs of course. Grab your basket And catch those
+falling eggs before they break.
+
+
+------------
+Requirements
+------------
+To run this program, you will need
+
+* Colour Maximite
+* PS/2 Keyboard
+* MMBasic 4.3 Or Later
+* VGA Monitor
+* SD Card with EggDrop files
+* Speakers (optional)
+
+
+------------
+GAME PLAY
+------------
+To control the basket, use Left/Right Arrow keys.
+
+Hit [ESC] to abort the game.
+
+Eggs will start falling slowly toward the floor.
+ * Catch = 1 "Score" point.
+ * Miss  = 1 "Break" point.
+
+For each catch, the falling speed will increase.
+
+The Game is over after 5 broken eggs.
+
+
+------------
+Contacting
+------------
+Email: chris.tusa@leafscale.com 

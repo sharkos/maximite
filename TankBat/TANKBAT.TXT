@@ -1,0 +1,34 @@
+Tank Battle v1.0 (Maximite Edition)
+(C)opyright 2013, Chris Tusa / LeafScale, Inc.
+Released under the Creative Commons License
+Attribution Non Commercial Share Alike 3.0
+=================================================
+
+------------
+Game Story
+------------
+Classic Tank battle game. Navigate the maze and 
+be the first to defeat your opponent.
+
+------------
+Requirements
+------------
+To run this program, you will need
+
+* Colour Maximite
+* PS/2 Keyboard
+* MMBasic 4.3 Or Later
+* VGA Monitor
+* SD Card with EggDrop files
+* Speakers (optional)
+
+
+------------
+GAME PLAY
+------------
+TBD
+
+------------
+Contacting
+------------
+Email: chris.tusa@leafscale.com 

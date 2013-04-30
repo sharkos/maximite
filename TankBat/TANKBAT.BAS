@@ -17,18 +17,53 @@ Print @(0,204)CLR$(White,Red)+"Left: 000                     Right: 000"
 Sprite Load "TANKBAT.SPR"
 
 Init:
-Rem Left Tank Coordinates
-LTX = 5
-LTY = 100
+Rem --- Tank 1 Setup
+TANK1.X = 5
+TANK1.Y = 100
+Rem Assign Sprite to Direction of tank. subscript = Dir, Assignment = Sprite #
+Rem 0=N, 1=NW, 2=W, 3=SW, 4=S, 5=SE, 6=E, 7=NE, 8=HIT, 9=KILL
+Dim TANK1.S(9)
+ TANK1.S(0) = 1
+ TANK1.S(1) = 2
 
-Rem Right Tank Coordinates
-RTX = 220
-RTY = 100
+Rem --- Tank 2 Setup
+TANK2.X = 220
+TANK2.Y = 100
+Rem Assign Sprite to Direction of tank. subscript = Dir, Assignment = Sprite #
+Rem 0=N, 1=NW, 2=W, 3=SW, 4=S, 5=SE, 6=E, 7=NE, 8=HIT, 9=KILL
+Dim TANK2.S(9)
+ TANK2.S(0) = 3
+ TANK2.S(1) = 4
 
-Sprite ON 1, LTX, LTY
-Sprite ON 2, RTX, RTY
+Sprite ON 1, TANK1.X, TANK1.Y
+Sprite ON 2, TANK2.X, TANK2.Y
+
+TERM = 0
+Do
+ K = KeyDown
+   Rem --- Left Arrow
+   If K = 130 Then
+     TurnTank(1,"Left")
+   EndIf
+   Rem --- Right Arrow
+   If K = 131 Then
+     TurnTank(1,"Right")
+   EndIf
+   Rem --- Up Arrow
+   If K = 128 Then
+     MoveTank(1,"Forward")
+   EndIf
+   Rem --- Down Arrow
+   If K = 129 Then
+     MoveTank(1,"Reverse")
+   EndIf
+Loop Until TERM$ = 1
 
 Pause 5000
 
-
-
+Rem --- Tank Rotation: [1,2], [Left, Right]
+Sub TurnTank(Num,Dir$)
+End Sub
+Rem -- Move Tank: [1,2], [Forward, Reverse]
+Sub MoveTank(Num,Dir$)
+Mode 3

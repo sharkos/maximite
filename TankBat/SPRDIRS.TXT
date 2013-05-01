@@ -1,0 +1,16 @@
+SPRITE.LOG for TankBat
+
+DIRECTIONS IN PROGRAM ARE : 0=N, 1=NE, 2=E, 3=SE, 4=S, 5=SW, 6=W, 7=NW
+
+BLUE = Odd Numbers,  GREEN=Even Numbers
+
+#   Color    Dir
+--- -------- ---
+1   Blue     E
+2   Green    E
+3   Blue     W
+4   Green    W
+5   Blue     N
+6   Green    N
+7   Blue     S
+8   Green    S

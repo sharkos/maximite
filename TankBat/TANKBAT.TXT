@@ -26,7 +26,23 @@ To run this program, you will need
 ------------
 GAME PLAY
 ------------
-TBD
+Player 1 (Blue Tank) Controls
+
+Rotate Left  : <Left Arrow>  key
+Rotate Right : <Right Arrow> key
+Move Forward : <Up Arrow>  key
+Move Reverse : <Down Arrow> ey
+Fire Weapon  :
+
+
+Player 2 (Green Tank) Controls
+
+Rotate Left  : <a> key
+Rotate Right : <d> key
+Move Forward : <w> key
+Move Reverse : <s> key
+Fire Weapon  :
+
 
 ------------
 Contacting
